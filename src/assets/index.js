@@ -35,9 +35,18 @@ import tripguide from "./tripguide.png";
 import pokemon from "./Poke.png";
 import commerce from "./eCommerce.png";
 import weather from "./Weather-app.png";
+import note from "./note-2.png";
+import planner from "./Daily-Planner.jpeg";
 
+import forecast from "./forecast-1.png";
+import recipe from "./Recipe-1.png";
+import todo from "./todo-1.png";
+import poke from "./Poke-1.png";
 export {
   pokemon,
+  poke,
+  recipe,
+  todo,
   commerce,
   weather,
   githubtech,
@@ -70,4 +79,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  note,
+  planner,
+  forecast,
 };

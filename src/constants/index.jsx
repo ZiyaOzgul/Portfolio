@@ -21,6 +21,12 @@ import {
   weather,
   pokemon,
   commerce,
+  note,
+  planner,
+  todo,
+  poke,
+  forecast,
+  recipe,
 } from "../assets";
 
 export const navLinks = [
@@ -153,6 +159,18 @@ const experiences = [
       "I want to collaborate with other developers to create high-quality products.",
     ],
   },
+  {
+    title: "React Native Developer",
+    company_name: "Front-End Journey",
+    icon: react,
+    iconBg: "#E6DEDD",
+    date: "Present",
+    points: [
+      "After I learn React for front-end and Node.js for back-end development i practice lots of self projects. ",
+      " After them i start working on React Native for mobile development.",
+      "Currently building basic projects on mobile. Mostly web projects i buileded.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -246,6 +264,140 @@ const projects = [
     image: commerce,
     source_code_link: "https://github.com/ZiyaOzgul/E-Commerce-Template",
   },
+  {
+    name: "Note Application",
+    description:
+      "Basic Note Application. Build with ReactJs,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: note,
+    source_code_link: "https://github.com/ZiyaOzgul/Note-app-MongoDb",
+  },
+  {
+    name: "Daily Planner",
+    description:
+      "Daily Planner Application. Build with ReactJs,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: planner,
+    source_code_link: "https://github.com/ZiyaOzgul/Bitirme",
+  },
 ];
 
+export const MobileProjects = [
+  {
+    name: "Native Forecast Application",
+    description:
+      "Mobile Forecast Application. Build with React Native,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: forecast,
+    source_code_link: "https://github.com/ZiyaOzgul/Native-Weather-App",
+  },
+  {
+    name: "Native Recipe Application",
+    description:
+      "Mobile Recipe Book Application. Build with React Native,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: recipe,
+    source_code_link: "https://github.com/ZiyaOzgul/Native-Recipe-App",
+  },
+  {
+    name: "Native ToDo Application",
+    description:
+      "Mobile ToDo Application. Build with React Native,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/ZiyaOzgul/Native-TodoApp-With-Redux",
+  },
+  {
+    name: "Native Pokedex Application",
+    description:
+      "Mobile Pokedex Application. Build with React Native,Redux and Tailwindcss",
+    tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: poke,
+    source_code_link: "https://github.com/ZiyaOzgul/Native-Pokedex-App",
+  },
+];
 export { services, technologies, experiences, testimonials, projects };
