@@ -27,6 +27,8 @@ import {
   poke,
   forecast,
   recipe,
+  artvicco,
+  ui,
 } from "../assets";
 
 export const navLinks = [
@@ -171,6 +173,14 @@ const experiences = [
       "Currently building basic projects on mobile. Mostly web projects i buileded.",
     ],
   },
+  {
+    title: "Engineer",
+    company_name: "Erciyes University",
+    icon: eru,
+    iconBg: "#383E56",
+    date: "2024 ",
+    points: ["End of University"],
+  },
 ];
 
 const testimonials = [
@@ -201,6 +211,49 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Artvicco E-Commerce Site",
+    description:
+      "E commerce website for Artvicco products.Frontend and Backend development. Build with NextJs, TypeScript and MongoDB.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: artvicco,
+    source_code_link: "https://github.com/ZiyaOzgul/Artvicoo",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "Admin Dashboard project.Frontend and Backend development. Build with NextJs, TypeScript and MongoDB.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ui,
+    source_code_link: "https://github.com/ZiyaOzgul/ui-project",
+  },
+
   {
     name: "Weather Forecast",
     description:

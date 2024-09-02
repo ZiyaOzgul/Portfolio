@@ -42,6 +42,8 @@ import forecast from "./forecast-1.png";
 import recipe from "./Recipe-1.png";
 import todo from "./todo-1.png";
 import poke from "./Poke-1.png";
+import artvicco from "./art1.png";
+import ui from "./ui1.png";
 export {
   pokemon,
   poke,
@@ -82,4 +84,6 @@ export {
   note,
   planner,
   forecast,
+  ui,
+  artvicco,
 };
